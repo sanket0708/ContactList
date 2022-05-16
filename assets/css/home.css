@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  background: linear-gradient(to right, rgba(255,0,0,0), rgb(130, 128, 128));
+ 
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: #171313;
+}
+
+#container{
+  display: flex;
+  height: 352px;
+  margin-right: 232px;
+
+
+}
+
+#ul-items{
+  
+  flex-direction: column;
+  margin: auto;
+  cursor: pointer;
+  width: 431px;
+
+}
+
+#ul-items li{
+  display: flex;
+  padding: 12px;
+  width: 594px;
+  justify-content: space-around;
+  border: 1px solid grey;
+  line-height: 12px;
+}
+
+#ul-items li p{
+  font-size: 24px;
+}
+
+#form-info{
+  height: 120px;
+  text-align: center;
+ 
+
+}
+
+#form-info input{
+  padding: 9px;
+  font-size: 12px;
+  width: 134px;
+  border-radius: 8px;
+  border-style: groove;
+}
+
+#form-info button{
+  padding: 2px;
+  font-size: 12px;
+  width: 101px;
+  border-radius: 8px;
+  border-style: groove;
+  cursor: pointer;
+  height: 37px;
+}
+
+.person-info{
+  font-size: 19px;
+}
+
+.delete-info{
+  font-size: 25px;
+  padding: 16px;
+}
